@@ -52,7 +52,7 @@ require 'pry'
 	def add_s(array)
 		new_array = []
 		array.each_with_index do |word, index|
-				word += "s" unless index == 
+				word += "s" unless index == 1
 			new_array << word
 		end
 		new_array
